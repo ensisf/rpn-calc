@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>RPN Calculator</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="container">
+    <div class="input-box">
+      <div class="input-box__title">RPN calculator</div>
+      <p>Example: <code>10000 25 2 776 / * + 200 +</code></p>
+      <div class="input-box__control">
+        <input type="text" class="input-box__input js-input" />
+        <button type="button" class="input-box__btn js-button">
+          Calculate
+        </button>
+      </div>
+      <div class="input-box__result">
+        <b>Result:</b> <span class="js-result"></span>
+      </div>
+      <div class="input-box__error js-error"></div>
+    </div>
+  </body>
+</html>
